@@ -1,0 +1,255 @@
+/* CSS declarations go here */
+
+/* Static Styling #################################################*/
+/*###################################################################*/
+/*###################################################################*/
+/*###################################################################*/
+	
+
+	* {
+ 		font-family: 'Source Sans Pro', sans-serif;
+ 	}
+
+ 	.hero-unit {
+ 		margin: -1.2em;
+ 		background-image: url("/assets/IMG_0420.JPG");
+ 		background-position: relative;
+		background-attachment: fixed;
+		background-size: cover;
+ 	}
+	
+ 	.carousel-inner > .item > img {
+ 		border-bottom-style: solid;
+ 		border-bottom-color: #4984C9;
+ 		border-bottom-width: 5px;
+ 		width: 100%;
+       height:500px;
+     }
+
+	nav {
+		background-color: #4984C9;
+	}
+
+	.navbar-nav > li > a {
+		color: #333333;
+	}
+
+	.navbar-nav > li > a:hover {
+		background-color: #6A95C7;
+		color: white;
+		-webkit-transition: all 0.5s ease;
+    	-moz-transition: all 0.5s ease;
+	}
+
+	.navbar-brand {
+		color: #333333;
+	}
+
+	.navbar-brand:hover {
+		background-color: #6A95C7;
+		color: white;
+		-webkit-transition: all 0.5s ease;
+    	-moz-transition: all 0.5s ease;
+	}
+
+	.navbar-toggle {
+		background-color: #333333;
+	}
+
+	.navbar-toggle .icon-bar {
+		background-color: white;
+	}
+
+	ul {
+		list-style: none;
+	}
+
+	body > .row {
+		padding-top: 2em;
+		padding-bottom: 2em;
+	}
+
+	body {
+		background-color: white;
+	}
+
+	.titlesHomepage {
+		border-color: white;
+		border-style: solid;
+		border-width: 3px;
+		margin-bottom: 50px;
+	}
+
+	.btn {
+		background-color: white;
+		color: #6A95C7;
+		border: none;
+		box-shadow: 3px 3px 3px #888888;
+		text-shadow: none;
+		border-color: white;
+		border-width: 2px;
+		border-style: solid;
+	}
+
+	.btn:hover, .btn:active{
+		background-color: #6A95C7;
+		border-color: white;
+		border-width: 2px;
+		border-style: solid;
+		color: white;
+		-webkit-transition: all 0.5s ease;
+	    -moz-transition: all 0.5s ease;
+	    text-shadow: none;
+	}
+
+
+
+
+
+/* Homepage Styling #################################################*/
+/*###################################################################*/
+/*###################################################################*/
+/*###################################################################*/
+
+
+	.about {
+		background-color: #6A95C7;
+		background-position: relative;
+		background-attachment: fixed;
+		border-style: solid;
+		border-width: 5px;
+		border-color: #4984C9;
+		color: white;
+		padding-top: 10em;
+		padding-bottom: 10em;
+		margin-top: 10em;
+		margin-bottom: 10em;
+		text-shadow: 2px 2px #333333;
+	}
+
+	
+
+	.sectionContent {
+
+		border-color: white;
+		border-width: 2px;
+		border-top-width: 6px;
+		border-style: solid;
+		box-shadow: 5px 5px 5px #888888;
+		margin-right: 2em;
+		padding-top: 5em;
+		padding-bottom: 5em;
+	}
+
+
+/* Media Styling #################################################*/
+/*###################################################################*/
+/*###################################################################*/
+/*###################################################################*/
+
+
+
+
+/* Music Styling #################################################*/
+/*###################################################################*/
+/*###################################################################*/
+/*###################################################################*/
+
+
+	.music {
+		padding-bottom: 5em;
+		border-bottom-color: white;
+	}
+
+
+/* Contact Styling #################################################*/
+/*###################################################################*/
+/*###################################################################*/
+/*###################################################################*/
+
+
+	.contact {
+		padding-top: 10em;
+		padding-bottom: 5em;
+	}
+
+	.contact a {
+		color: white;
+
+	}
+
+	.hidden { 
+		display: none; 
+	}
+
+/* Footer Styling #################################################*/
+/*###################################################################*/
+/*###################################################################*/
+/*###################################################################*/
+
+
+	.footer {
+		background-color: #4984c9;
+	}
+
+	.footer .fa {
+		font-size: 2.3em;
+		padding: .1em;
+	}
+
+	.footer a {
+		color: #333333;
+	}
+
+	.footer a:hover {
+		color: white;
+		-webkit-transition: all 0.5s ease;
+    	-moz-transition: all 0.5s ease;
+	}
+/* Flash Styling #################################################*/
+/*###################################################################*/
+/*###################################################################*/
+/*###################################################################*/
+
+	.alert-error {
+		background-color: #f2dede;
+		border-color: #eed3d7;
+		color: #b94a48;
+		text-align: left;
+	}
+
+	.alert-alert {
+		background-color: #f2dede;
+		border-color: #eed3d7;
+		color: #b94a48;
+		text-align: left;
+	}
+
+	.alert-success {
+		background-color: #dff0d8;
+		border-color: #d6e9c6;
+		color: #468847;
+		text-align: left;
+	}
+
+	.alert-notice {
+		background-color: #dff0d8;
+		border-color: #d6e9c6;
+		color: #468847;
+		text-align: left;
+	}
+
+
+/* Media Queries #################################################*/
+/*###################################################################*/
+/*###################################################################*/
+/*###################################################################*/
+
+
+	@media (max-width: 767px) {
+
+		.sectionContent {
+			margin-right: 0px;
+		} 
+	}
+

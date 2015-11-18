@@ -1,0 +1,284 @@
+<template name="layout">
+
+    <head>
+        <title>alecRenteria</title>
+    </head>
+    <div id="top"></div>
+    <nav class="navbar navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Alec Renteria</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="/#top">Home</a></li>
+                    <li><a href="/beats#content">Beats</a></li>
+                    <li><a href="/media#content">Media</a></li>
+                    <li><a href="/contact#content">Contact</a></li>
+                    <!-- <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Login <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Services</a></li>
+			<li><a href="#">Team</a></li>
+			<li><a href="#">Testimonials</a></li>
+			<li><a href="#">Contact</a></li>
+          </ul>
+        </li> -->
+                </ul>
+                <!-- <form class="navbar-form navbar-right" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form> -->
+                <!-- <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul> -->
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <body>
+        {{> yield}}
+    </body>
+    <footer class="container-fluid footer">
+        <div class="row">
+            <div class="col-lg-2 col-md-6 col-xs-6 text-left">
+                <h5>Connect With Me...</h5>
+                <strong><a href="https://www.youtube.com/channel/UCQFs7iax8jHu3As1-iKoNrw" target="_blank"><i class="fa fa-youtube"></i></a> 
+		<a href="https://twitter.com/alecrenteria512" target="_blank"><i class="fa fa-twitter"></i></a> 
+		<a href="https://www.linkedin.com/in/alecrenteria" target="_blank"><i class="fa fa-linkedin"></i></a></strong>
+            </div>
+            <div class="col-lg-2 col-lg-offset-8 col-md-6 col-xs-6 text-right">
+                <h5>Fast Nav</h5>
+                <ul>
+                    <li><a href="/#top">Home</a></li>
+                    <li><a href="/beats#content">Beats</a></li>
+                    <li><a href="/media#content">Media</a></li>
+                    <li><a href="/contact#content">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <p>©2015 Alec Renteria | All rights reserved.</p>
+                <p><a href="tel:1-512-484-6397">(512) 484-6397</a> | Austin, TX</p>
+                <p>Built by <a href="http://walkerflieller.com" target="_blank">Walker Flieller</a> 2015</p>
+            </div>
+        </div>
+    </footer>
+</template>
+<template name="home">
+    <div class="hero-unit">
+        <div class="container-fluid">
+            <img src="/img/IMG_0420.JPG" width="100%" height="600px">
+        </div>
+    </div>
+    <div id="content">
+</div>
+
+    <body>
+        <div class="about container" id="about">
+           
+            <div class="row text-center">
+                <div class="col-lg-12">
+                    <h2> <i class="fa fa-user"></i></h2></div>
+                <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 titlesHomepage">
+                    <h1>About Alec Renteria</h1>
+                    <h5>Music Producer/Audio Engineer - Austin, TX</h5>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row title text-center sectionContent">
+                    <div class="col-lg-6 col-lg-offset-3 col-md-12 col-sm-12 about-section">
+                        <h4>
+			Alec Renteria is a freelance music producer and audio engineer. He specializes in Hip Hop and R&B music production. His southern influenced beats mixed with smooth ambient synth sounds is what gives Alec his unique sound. When it comes to recording he is knowledgeable in all the technical studio equipment such as Pro Tools, mixing consoles, compressors, EQ’s, and microphones.
+		</h4>
+                        <a href="mailto:alecrenteria512@gmail.com" class="btn pull-right">Contact me for beats or to book a recording session.</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</template>
+<template name="media">
+    <div class="hero-unit">
+        <div class="container-fluid">
+            <img src="/img/IMG_0420.JPG" width="100%" height="600px">
+        </div>
+    </div>
+    <div id="content">
+</div>
+
+    <body>
+        <div class="about container" id="about">
+          
+            <div class="row text-center">
+                <div class="col-lg-12">
+                    <h2> <i class="fa fa-video-camera"></i></h2></div>
+                <div class="col-lg-6 col-lg-offset-3 col-md-12 col-sm-12 titlesHomepage">
+                    <h2>Media</h2>
+                    <p>My recent video uploads</p>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row title text-center sectionContent">
+                    <div class="col-lg-6 col-lg-offset-3">
+                        <h4>
+			Coming soon...
+		</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</template>
+<template name="beats">
+    <div class="hero-unit">
+        <div class="container-fluid">
+            <img src="/img/IMG_0420.JPG" width="100%" height="600px">
+        </div>
+    </div>
+    <div id="content">
+</div>
+
+    <body>
+        <div class="about container" id="about">
+          
+            <div class="row text-center">
+                <div class="col-lg-12">
+                    <h1><i class="fa fa-music"></i></h1></div>
+                <div class="col-lg-6 col-lg-offset-3 col-md-12 col-sm-12 titlesHomepage">
+                    <h2>Beats</h2>
+                </div>
+            </div>
+            <div class="container ">
+                <div class="row sectionContent text-center">
+                    <div class="col-lg-6 col-lg-offset-3 music">
+                        <h3>Came 2 Far</h3>
+                        <audio controls>
+                            <source src="/audio/came2far.mp3" type="audio/mp3">
+                        </audio>
+                        <hr>
+                    </div>
+                    <div class="col-lg-6 col-lg-offset-3 music">
+                        <h3>Europe</h3>
+                        <audio controls>
+                            <source src="/audio/europe.mp3" type="audio/mp3">
+                        </audio>
+                        <hr>
+                    </div>
+                    <div class="col-lg-6 col-lg-offset-3 music">
+                        <h3>Heaven</h3>
+                        <audio controls>
+                            <source src="/audio/heaven.mp3" type="audio/mp3">
+                        </audio>
+                        <hr>
+                    </div>
+                    <div class="col-lg-6 col-lg-offset-3 music">
+                        <h3>One of Them Nights</h3>
+                        <audio controls>
+                            <source src="/audio/oneofthemnights.mp3" type="audio/mp3">
+                        </audio>
+                        <hr>
+                    </div>
+                    <div class="col-lg-6 col-lg-offset-3 music">
+                        <h3>Yellow Grass</h3>
+                        <audio controls>
+                            <source src="/audio/yellowgrass.mp3" type="audio/mp3">
+                        </audio>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</template>
+<template name="contact">
+    <div class="container-fluid">
+        <div class="hero-unit">
+            <img src="/img/IMG_0420.JPG" width="100%" height="600px">
+        </div>
+    </div>
+    <div id="content">
+</div>
+
+    <body>
+        <div class="container contact about">
+     
+            <div class="row text-center">
+                <div class="col-lg-12">
+                    <h1><i class="fa fa-envelope-o"></i></h1>
+                </div>
+                <div class="col-lg-6 col-lg-offset-3 col-md-12 col-sm-12 titlesHomepage">
+                    <h2>Contact</h2>
+                    <p>Let me know what you do for I can network with you</p>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 sectionContent">
+                        <form role="form" action="MAILTO:alecrenteria512@gmail.com" method="post" enctype="text/plain">
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <label for="Input-Name">Your Name</label>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" name="Name" id="Input-Name" placeholder="Enter Name" required>
+                                        <span class="input-group-addon"><i class="fa fa-check form-control-feedback"></i></span></div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="Input-Email">Your Email</label>
+                                    <div class="input-group">
+                                        <input type="email" class="form-control" id="InputEmail" name="Email" placeholder="Enter Email" required>
+                                        <span class="input-group-addon"><i class="fa fa-check form-control-feedback"></i></span></div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="Input-Number">Your Phone Number</label>
+                                    <div class="input-group">
+                                        <input type="tel" class="form-control" name="Number" id="Input-Number" placeholder="Enter Phone Number" required>
+                                        <span class="input-group-addon"><i class="fa fa-check form-control-feedback"></i></span></div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="Input-Occupation">Your Occupation</label>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" name="Occupation" id="InputOccupation" placeholder="Enter Occupation" required>
+                                        <span class="input-group-addon"><i class="fa fa-check form-control-feedback"></i></span></div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="Input-Message">Message</label>
+                                    <div class="input-group">
+                                        <textarea name="Message" id="InputMessage" class="form-control" rows="7" required></textarea>
+                                        <span class="input-group-addon"><i class="fa fa-check form-control-feedback"></i></span></div>
+                                </div>
+                                <input type="submit" id="submit" value="Submit" class="btn btn-info pull-right">
+                            </div>
+                        </form>
+                        <h3>Work Number: <a href="tel:1-512-484-6397">(512) 484-6397</a> </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</template>
